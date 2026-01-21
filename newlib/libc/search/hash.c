@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-#ifndef _SOLANA_SOURCE
+#ifndef _trezoa_SOURCE
 
 #include <sys/param.h>
 #if defined(LIBC_SCCS) && !defined(lint)
@@ -1037,4 +1037,4 @@ swap_header(hashp)
 }
 #endif
 
-#endif /* _SOLANA_SOURCE */
+#endif /* _trezoa_SOURCE */

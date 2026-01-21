@@ -141,7 +141,7 @@ typedef _fpos64_t fpos64_t;
 #define	L_tmpnam	FILENAME_MAX
 #endif
 
-#if __BSD_VISIBLE || __XSI_VISIBLE || _SOLANA_SOURCE
+#if __BSD_VISIBLE || __XSI_VISIBLE || _trezoa_SOURCE
 #define P_tmpdir        "/tmp"
 #endif
 

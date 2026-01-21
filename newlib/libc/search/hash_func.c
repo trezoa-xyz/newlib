@@ -29,7 +29,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-#ifndef _SOLANA_SOURCE
+#ifndef _trezoa_SOURCE
 
 #if defined(LIBC_SCCS) && !defined(lint)
 static char sccsid[] = "@(#)hash_func.c	8.2 (Berkeley) 2/21/94";
@@ -216,4 +216,4 @@ hash4(keyarg, len)
 	return (h);
 }
 
-#endif /* _SOLANA_SOURCE */
+#endif /* _trezoa_SOURCE */

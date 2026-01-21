@@ -11,7 +11,7 @@
  * ====================================================
  *
  */
-#ifndef _SOLANA_SOURCE
+#ifndef _trezoa_SOURCE
 
 #include "fdlibm.h"
 #include <errno.h>
@@ -351,4 +351,4 @@ static double zero = 0.0;	/* used as const */
 	return retval;
 }
 
-#endif /* _SOLANA_SOURCE */
+#endif /* _trezoa_SOURCE */
