@@ -625,7 +625,7 @@ union internal_auxent
 #define	XMC_TI	12		/* Read-only traceback index csect */
 #define	XMC_TB	13		/* Read-only traceback table csect */
 /* 		14	??? */
-#define	XMC_TC0	15		/* Read-write TOC anchor */
+#define	XMC_TC0	15		/* Read-write TOC trezoaanchor */
 #define XMC_TD	16		/* Read-write data in TOC */
 
   /******************************************

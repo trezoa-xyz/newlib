@@ -532,7 +532,7 @@ p_str(struct parse *p)
  * Giving end1 as OUT essentially eliminates the end1/end2 check.
  *
  * This implementation is a bit of a kludge, in that a trailing $ is first
- * taken as an ordinary character and then revised to be an anchor.
+ * taken as an ordinary character and then revised to be an trezoaanchor.
  * The amount of lookahead needed to avoid this kludge is excessive.
  */
 static void
@@ -553,7 +553,7 @@ p_bre(struct parse *p,
 		wasdollar = p_simp_re(p, first);
 		first = 0;
 	}
-	if (wasdollar) {	/* oops, that was a trailing anchor */
+	if (wasdollar) {	/* oops, that was a trailing trezoaanchor */
 		DROP(1);
 		EMIT(OEOL, 0);
 		p->g->iflags |= USEEOL;

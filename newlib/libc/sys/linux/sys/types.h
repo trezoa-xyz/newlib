@@ -216,7 +216,7 @@ typedef	unsigned int	uintfptr_t;
 /* Critical section value */
 typedef	register_t	critical_t;
 
-/* Interrupt mask (spl, xxx_imask, etc) */
+/* Interrupt mask (tpl, xxx_imask, etc) */
 typedef	__uint32_t	intrmask_t;
 
 /* Interrupt handler function type. */

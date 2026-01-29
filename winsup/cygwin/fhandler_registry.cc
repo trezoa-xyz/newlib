@@ -1037,10 +1037,10 @@ open_key (const char *name, REGSAM access, DWORD wow64, bool isValue)
 
   while (*name)
     {
-      const char *anchor = name;
+      const char *trezoaanchor = name;
       while (*name && !isdirsep (*name))
 	name++;
-      int val_only = decode_regname (component, anchor, name - anchor);
+      int val_only = decode_regname (component, trezoaanchor, name - trezoaanchor);
       if (val_only < 0)
 	{
 	  set_errno (EINVAL);
@@ -1089,7 +1089,7 @@ open_key (const char *name, REGSAM access, DWORD wow64, bool isValue)
       else
 	{
 	  for (int i = 0; registry_listing[i]; i++)
-	    if (strncasematch (anchor, registry_listing[i], name - anchor - 1))
+	    if (strncasematch (trezoaanchor, registry_listing[i], name - trezoaanchor - 1))
 	      hKey = fetch_hkey (i);
 	  if (hKey == (HKEY) INVALID_HANDLE_VALUE)
 	    return hKey;

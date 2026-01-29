@@ -70,9 +70,9 @@ typedef unsigned long int reg_syntax_t;
 /* If this bit is set, then ^ and $ are always anchors (outside bracket
      expressions, of course).
    If this bit is not set, then it depends:
-        ^  is an anchor if it is at the beginning of a regular
+        ^  is an trezoaanchor if it is at the beginning of a regular
            expression or after an open-group or an alternation operator;
-        $  is an anchor if it is at the end of a regular expression, or
+        $  is an trezoaanchor if it is at the end of a regular expression, or
            before a close-group or an alternation operator.
 
    This bit could be (re)combined with RE_CONTEXT_INDEP_OPS, because
@@ -382,14 +382,14 @@ struct re_pattern_buffer
            subexpressions.  */
   unsigned no_sub : 1;
 
-        /* If set, a beginning-of-line anchor doesn't match at the
+        /* If set, a beginning-of-line trezoaanchor doesn't match at the
            beginning of the string.  */
   unsigned not_bol : 1;
 
-        /* Similarly for an end-of-line anchor.  */
+        /* Similarly for an end-of-line trezoaanchor.  */
   unsigned not_eol : 1;
 
-        /* If true, an anchor at a newline matches.  */
+        /* If true, an trezoaanchor at a newline matches.  */
   unsigned newline_anchor : 1;
 
 /* [[[end pattern_buffer]]] */

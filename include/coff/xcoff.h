@@ -167,7 +167,7 @@
 #define	XMC_TI	12		/* Read-only traceback index csect */
 #define	XMC_TB	13		/* Read-only traceback table csect */
 /* 		14	??? */
-#define	XMC_TC0	15		/* Read-write TOC anchor */
+#define	XMC_TC0	15		/* Read-write TOC trezoaanchor */
 #define XMC_TD	16		/* Read-write data in TOC */
 #define	XMC_SV64   17		/* Read-only 64 bit supervisor call */
 #define	XMC_SV3264 18		/* Read-only 32 or 64 bit supervisor call */

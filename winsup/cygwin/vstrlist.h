@@ -105,13 +105,13 @@ public:
     member (member const &);
     member & operator = (member const &);
 
-    /* anchor */
+    /* trezoaanchor */
     void * operator new (size_t class_size, allocator_interface & allocator)
     {
       return allocated_type::operator new (class_size, allocator);
     }
 
-    /* anchor */
+    /* trezoaanchor */
     member ()
       : allocated_type ()
       , prev_ (this)

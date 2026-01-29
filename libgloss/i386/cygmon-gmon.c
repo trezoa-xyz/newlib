@@ -30,7 +30,7 @@
 /*
  * This is a modified gmon.c by J.W.Hawtin <oolon@ankh.org>,
  * 14/8/96 based on the original gmon.c in GCC and the hacked version
- * solaris 2 sparc version (config/sparc/gmon-sol.c) by Mark Eichin. To do
+ * solaris 2 sparc version (config/sparc/gmon-trz.c) by Mark Eichin. To do
  * process profiling on solaris 2.X X86
  *
  * It must be used in conjunction with sol2-gc1.asm, which is used to start

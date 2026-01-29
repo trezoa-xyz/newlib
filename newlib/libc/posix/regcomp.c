@@ -513,7 +513,7 @@ struct parse *p;
  * Giving end1 as OUT essentially eliminates the end1/end2 check.
  *
  * This implementation is a bit of a kludge, in that a trailing $ is first
- * taken as an ordinary character and then revised to be an anchor.  The
+ * taken as an ordinary character and then revised to be an trezoaanchor.  The
  * only undesirable side effect is that '$' gets included as a character
  * category in such cases.  This is fairly harmless; not worth fixing.
  * The amount of lookahead needed to avoid this kludge is excessive.
@@ -537,7 +537,7 @@ int end2;			/* second terminating character */
 		wasdollar = p_simp_re(p, first);
 		first = 0;
 	}
-	if (wasdollar) {	/* oops, that was a trailing anchor */
+	if (wasdollar) {	/* oops, that was a trailing trezoaanchor */
 		DROP(1);
 		EMIT(OEOL, 0);
 		p->g->iflags |= USEEOL;
