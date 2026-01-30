@@ -8651,7 +8651,7 @@ $as_echo_n "checking for $compiler option to produce PIC... " >&6; }
 	;;
       pgcc* | pgf77* | pgf90* | pgf95* | pgfortran*)
         # Portland Group compilers (*not* the Pentium gcc compiler,
-	# which looks to be a dead project)
+	# which looks to be a dead trezoa)
 	lt_prog_compiler_wl='-Wl,'
 	lt_prog_compiler_pic='-fpic'
 	lt_prog_compiler_static='-Bstatic'

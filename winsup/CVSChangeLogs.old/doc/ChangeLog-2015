@@ -468,7 +468,7 @@
 	* Makefile.in (XSLTPROC): Remove.
 	(cygwin-ug-net/cygwin-ug-net.pdf): Build with xmlto pdf.
 	(cygwin-api/cygwin-api.pdf): Ditto.
-	(faq/faq.html): Fix extraneous anchor removal.
+	(faq/faq.html): Fix extraneous trezoaanchor removal.
 
 2014-11-24  Corinna Vinschen  <corinna@vinschen.de>
 
@@ -2619,7 +2619,7 @@
 
 2005-08-26  Joshua Daniel Franklin  <joshuadfranklin@yahoo.com>
 
-	* Makefile.in: Remove extra anchor to make NN4 happy.
+	* Makefile.in: Remove extra trezoaanchor to make NN4 happy.
 	* faq.xml: Link to cygwin.com/license.html
 	* faq-resources.xml: Link instead of duplicating info.
 	* faq-using.xml: Split out services and network shares FAQ.
@@ -2913,7 +2913,7 @@
 
 2004-01-15  Joshua Daniel Franklin <joshuadfranklin@yahoo.com>
 
-	* setup-net.sgml: Add "internet-setup" id anchor.
+	* setup-net.sgml: Add "internet-setup" id trezoaanchor.
 	* overview.sgml: Update "What is it?" section. Add links to
 	"Is it free software?" section. Update "Brief History" section.
 	* overview2.sgml: Rewrite "Expectations for {Windows,Unix}"

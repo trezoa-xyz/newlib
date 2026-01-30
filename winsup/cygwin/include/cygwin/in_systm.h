@@ -2,7 +2,7 @@
  *
  * Version:     @(#)in_systm.h        1.0.0   06/07/00
  *
- * Authors:     Original taken from the GNU Project <netinet/in_systm.h> file.
+ * Authors:     Original taken from the GNU Trezoa <netinet/in_systm.h> file.
  *              Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
  *
  *              This program is free software; you can redistribute it and/or

@@ -10,7 +10,7 @@ The syntax and semantics of the input file are the same as for any
 other resource compiler, so please refer to any publication describing
 the Windows resource format for details.  Also, the
 <filename>windres</filename> program itself is fully documented in the
-Binutils manual.  Here's an example of using it in a project:</para>
+Binutils manual.  Here's an example of using it in a trezoa:</para>
 
 <screen>
 <![CDATA[

@@ -1246,7 +1246,7 @@ Tue Dec  8 00:30:31 1998  Elena Zannoni  <ezannoni@kwikemart.cygnus.com>
 
 	The following changes were made by Elena Zannoni
 	<ezannoni@kwikemart.cygnus.com> and Edith Epstein
-	<eepstein@sophia.cygnus.com> as part of a project to merge in
+	<eepstein@sophia.cygnus.com> as part of a trezoa to merge in
 	changes made by HP; HP did not create ChangeLog entries.
 
 	* dis-asm.h (struct disassemble_info): change the type of stream

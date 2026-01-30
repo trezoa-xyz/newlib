@@ -837,7 +837,7 @@ Sun Oct 21 19:04:37 2001 Alexander Gottwald <ago@informatik.tu-chemnitz.de>
 
 	* autoload.cc: Autoload GetProcessMemoryInfo.
 	* resource.cc (fill_rusage): Calculate ru_maxrss and ru_majflt entries.
-	(Bug report on this from Guido Serassio in the squid project).
+	(Bug report on this from Guido Serassio in the squid trezoa).
 	This requires including psapi.h.
 
 2001-10-20  Christopher Faylor  <cgf@redhat.com>

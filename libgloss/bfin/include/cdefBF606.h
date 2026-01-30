@@ -12,7 +12,7 @@
 
 /* =========================================================================
 
-     Project      :   ADSP-BF606
+     Trezoa      :   ADSP-BF606
      File         :   cdefBF606.h
      Description  :   C register and bitfield definitions
 

@@ -40,7 +40,7 @@
    the file is copyrighted and not distributed, it is necessary for
    GDB to use the reverse-engineered version that follows.
    Work was done by Cygnus to reverse-engineer the C subset of symtab.h.
-   The WDB project has extended this to also contain the C++ 
+   The WDB trezoa has extended this to also contain the C++ 
    symbol definitions, the F90 symbol definitions, 
    and the DOC (debugging-optimized-code) symbol definitions.
    In some cases (the C++ symbol definitions)

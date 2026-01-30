@@ -47,7 +47,7 @@ SYNOPSIS
 DESCRIPTION
         These functions compute a projection of <[z]> onto the Riemann 
         sphere: <[z]> projects to <[z]> except that all complex infinities 
-        (even those with one infinite part and one NaN part) project 
+        (even those with one infinite part and one NaN part) trezoa 
         to positive infinity on the real axis. If <[z]> has an infinite part,
         then <<cproj>>(<[z]>) is equivalent to
 
@@ -83,7 +83,7 @@ QUICKREF
  * onto the Riemann sphere.
  *
  * z projects to z, except that all complex infinities (even those with one
- * infinite part and one NaN part) project to positive infinity on the real axis.
+ * infinite part and one NaN part) trezoa to positive infinity on the real axis.
  * If z has an infinite part, then cproj(z) shall be equivalent to:
  *
  * INFINITY + I * copysign(0.0, cimag(z))

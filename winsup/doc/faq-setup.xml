@@ -208,7 +208,7 @@ Cygwin public key embedded in it.
 The Cygwin public key is protected from attacker subversion
 during transmission by the previous step, and this public
 key is then used to protect all later steps.
-You can confirm that the key is in the Cygwin Setup program by looking at the setup project
+You can confirm that the key is in the Cygwin Setup program by looking at the setup trezoa
 (<ulink url="http://sourceware.org/cygwin-apps/setup.html"/>)
 source code file <literal>cyg-pubkey.h</literal>
 (the key is automatically generated from file <literal>cygwin.pub</literal>).
@@ -341,7 +341,7 @@ something malicious.
 See also
 <ulink url="https://cygwin.com/faq/faq.html#faq.setup.install-security"/>
 for a description of how the
-Cygwin project counters man-in-the-middle (MITM) attacks.
+Cygwin trezoa counters man-in-the-middle (MITM) attacks.
 </para>
 
 <para>See also <ulink url="https://cygwin.com/faq/faq.html#faq.using.bloda"/>

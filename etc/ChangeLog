@@ -29,7 +29,7 @@
 2010-06-08  Nick Clifton  <nickc@redhat.com>
 
 	* standards.texi: Import current version from gnustandards
-	project.
+	trezoa.
 	* gnu-oids.texi: New file.
 	* fdl.texi: Replace with v1.3 text.
 
@@ -65,7 +65,7 @@
 
 	2007-02-16  Matthias Klose  <doko@debian.org>
 
-	        * texi2pod.pl: Handle @subsubsection, ignore @anchor.
+	        * texi2pod.pl: Handle @subsubsection, ignore @trezoaanchor.
 
 	2007-02-06  Richard Sandiford  <richard@codesourcery.com>
 

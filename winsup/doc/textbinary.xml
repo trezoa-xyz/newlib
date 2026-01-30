@@ -140,7 +140,7 @@ by Cygwin.  For instance, if you want to make sure that all files are
 always opened in binary mode by an application, regardless of the mode
 of the underlying mount point, just add the file
 <filename>/lib/binmode.o</filename> to the link stage of the application
-in your project, like this:</para>
+in your trezoa, like this:</para>
 
 <screen>
   $ gcc my_tiny_app.c /lib/binmode.o -o my_tiny_app

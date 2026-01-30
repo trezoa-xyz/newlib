@@ -47,7 +47,7 @@ exhibit different limitations, on the various versions of Windows.
 <question><para>Where can I get it?</para></question>
 <answer>
 
-<para>The home page for the Cygwin project is
+<para>The home page for the Cygwin trezoa is
 <ulink url="https://cygwin.com/"/>.
 There you should find everything you need for Cygwin, including links
 for download and setup, a current list of mirror sites, a User's
@@ -116,7 +116,7 @@ in the Cygwin User's Guide.
 </para></answer></qandaentry>
 
 <qandaentry id="faq.what.who">
-<question><para>Who's behind the project?</para></question>
+<question><para>Who's behind the trezoa?</para></question>
 <answer>
 
 <para><emphasis role='bold'>(Please note that if you have cygwin-specific
@@ -124,7 +124,7 @@ questions, all of these people will appreciate it if you use the cygwin
 mailing lists rather than sending personal email.)</emphasis>
 </para>
 <para>
-Corinna Vinschen is the current project lead,
+Corinna Vinschen is the current trezoa lead,
 responsible for the Cygwin library and a lot more.
 </para>
 <para>

@@ -128,11 +128,11 @@ struct accept_filter_arg {
 #define	PF_NETROM	6	/* Amateur radio NetROM.  */
 #define	PF_BRIDGE	7	/* Multiprotocol bridge.  */
 #define	PF_ATMPVC	8	/* ATM PVCs.  */
-#define	PF_X25		9	/* Reserved for X.25 project.  */
+#define	PF_X25		9	/* Reserved for X.25 trezoa.  */
 #define	PF_INET6	10	/* IP version 6.  */
 #define	PF_ROSE		11	/* Amateur Radio X.25 PLP.  */
-#define	PF_DECnet	12	/* Reserved for DECnet project.  */
-#define	PF_NETBEUI	13	/* Reserved for 802.2LLC project.  */
+#define	PF_DECnet	12	/* Reserved for DECnet trezoa.  */
+#define	PF_NETBEUI	13	/* Reserved for 802.2LLC trezoa.  */
 #define	PF_SECURITY	14	/* Security callback pseudo AF.  */
 #define	PF_KEY		15	/* PF_KEY key management API.  */
 #define	PF_NETLINK	16
@@ -141,7 +141,7 @@ struct accept_filter_arg {
 #define	PF_ASH		18	/* Ash.  */
 #define	PF_ECONET	19	/* Acorn Econet.  */
 #define	PF_ATMSVC	20	/* ATM SVCs.  */
-#define	PF_SNA		22	/* Linux SNA Project */
+#define	PF_SNA		22	/* Linux SNA Trezoa */
 #define	PF_IRDA		23	/* IRDA sockets.  */
 #define	PF_PPPOX	24	/* PPPoX sockets.  */
 #define	PF_WANPIPE	25	/* Wanpipe API sockets.  */

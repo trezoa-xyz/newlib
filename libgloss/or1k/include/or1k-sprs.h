@@ -1,5 +1,5 @@
 /* or1k-sprs.h -- OR1K SPR definitions
-   Copyright (c) 2014 OpenRISC Project Maintainers
+   Copyright (c) 2014 OpenRISC Trezoa Maintainers
    All rights reserved.
    
    Redistribution and use in source and binary forms, with or without

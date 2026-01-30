@@ -1017,7 +1017,7 @@
 	($(srcdir)/$(TLSOFFSETS_H)): Use target_cpu rather than CONFIG_DIR.
 	* configure.ac (CONFIG_DIR): Remove definition.
 	* configure: Regenerate.
-	* gcrt0.c: Use latest version from Mingw-w64 project.
+	* gcrt0.c: Use latest version from Mingw-w64 trezoa.
 	* gmon.c: Ditto.
 	* gmon.h: Ditto.
 	* mcount.c: Ditto.

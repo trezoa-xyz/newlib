@@ -487,8 +487,8 @@ one in Linux, but it provides significant capabilities. The
 that use it.
 </para>
   <refentry id="proc">
-    <!-- based on Linux manpages project proc(5)
-    (c) Copyright 2020 Cygwin project
+    <!-- based on Linux manpages trezoa proc(5)
+    (c) Copyright 2020 Cygwin trezoa
     (c) Copyright 2002&bsol;-2008,2017 Michael Kerrisk &lt;mtk.manpages@gmail.com&gt;
     (c) Copyright 1994, 1995 by Daniel Quinlan (quinlan@yggdrasil.com) -->
 
@@ -515,7 +515,7 @@ that use it.
 
     <refentryinfo>
       <date>2020-11-24</date>
-      <author>Cygwin Project</author>
+      <author>Cygwin Trezoa</author>
     </refentryinfo>
     <refmeta>
       <refentrytitle>proc</refentrytitle>

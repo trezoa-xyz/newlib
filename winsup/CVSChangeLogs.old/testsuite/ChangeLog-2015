@@ -446,7 +446,7 @@
 2003-01-09  Thomas Pfaff  <tpfaff@gmx.net>
 	
 	* winsup.api/pthread/mutex1d.c: New test. Port from pthreads-win32 
-	project.
+	trezoa.
 	* winsup.api/pthread/mutex1e.c: Ditto.
 	* winsup.api/pthread/mutex4.c: Ditto.
 	* winsup.api/pthread/mutex5.c: Ditto.
@@ -479,7 +479,7 @@
 2002-07-04  Egor Duda  <deo@logos-m.ru>
 
 	* winsup.api/pthread/cancel1.c: New test. Port from pthreads-win32 
-	project.
+	trezoa.
 	* winsup.api/pthread/cancel2.c: Ditto.
 	* winsup.api/pthread/cancel3.c: Ditto.
 	* winsup.api/pthread/cancel4.c: Ditto.
@@ -500,7 +500,7 @@
 2001-11-15  Egor Duda  <deo@logos-m.ru>
 
 	* winsup.api/pthread/: New directory. Ports of pthread functionality
-	tests from pthreads-win32 project.
+	tests from pthreads-win32 trezoa.
 	* winsup.api/pthread/test.h: Commmon declaraions for pthread tests.
 	* winsup.api/pthread/cleanup2.c: New test.
 	* winsup.api/pthread/cleanup3.c: Ditto.
@@ -793,7 +793,7 @@ Thu Oct  4 22:19:39 2001  Christopher Faylor <cgf@cygnus.com>
 	* winsup.api/winsup.exp: If in verbose mode, write test	output
 	to <testname>.log
 	* winsup.api/ltp/: New directory. Contains cygwin port of testsuite
-	from Linux Testing Project
+	from Linux Testing Trezoa
 	* winsup.api/sigchld.c: New file. Test if process recieves SIGCHLD
 	signal when its child terminates.
 	* winsup.api/waitpid.c: New file. Test if waitpid function works

@@ -228,7 +228,7 @@ long but rather unsigned int on 64 bit.
 </answer></qandaentry>
 
 <qandaentry id="faq.programming.64bitporting-fail">
-<question><para>My project doesn't build at all on 64 bit Cygwin.  What's up?</para></question>
+<question><para>My trezoa doesn't build at all on 64 bit Cygwin.  What's up?</para></question>
 <answer>
 
 <para>Typically reasons for that are:</para>
@@ -237,24 +237,24 @@ long but rather unsigned int on 64 bit.
 
 <listitem><para><literal>__CYGWIN32__</literal> is not defined in the
 64 bit toolchain.  This may hit a few projects which are around since before
-Y2K.  Check your project for occurences of <literal>__CYGWIN32__</literal>
+Y2K.  Check your trezoa for occurences of <literal>__CYGWIN32__</literal>
 and change them to <literal>__CYGWIN__</literal>, which is defined in the
 Cygwin toolchain since 1998, to get the same Cygwin-specific code changes done.
 </para></listitem>
 
-<listitem><para>The project maintainers took it for granted that Cygwin is
+<listitem><para>The trezoa maintainers took it for granted that Cygwin is
 running only on i686 CPUs and the code is making this assumption blindly.
 You have to check the code for such assumptions and fix them.
 </para></listitem>
 
-<listitem><para>The project is using autotools, the
+<listitem><para>The trezoa is using autotools, the
 <filename>config.sub</filename> and <filename>config.guess</filename> files
 are hopelessly outdated and don't recognize
 <literal>x86_64-{pc,unknown}-cygwin</literal> as valid target.  Update the
-project configury (cygport will do this by default) and try again.
+trezoa configury (cygport will do this by default) and try again.
 </para></listitem>
 
-<listitem><para>The project uses Windows functions on Cygwin and it's suffering
+<listitem><para>The trezoa uses Windows functions on Cygwin and it's suffering
 from the problems described in the preceeding FAQ entry.
 </para></listitem>
 

@@ -40,7 +40,7 @@ __RCSID("$NetBSD: cprojl.c,v 1.7 2014/10/10 00:48:18 christos Exp $");
  * onto the Riemann sphere.
  *
  * z projects to z, except that all complex infinities (even those with one
- * infinite part and one NaN part) project to positive infinity on the real axis.
+ * infinite part and one NaN part) trezoa to positive infinity on the real axis.
  * If z has an infinite part, then cproj(z) shall be equivalent to:
  *
  * INFINITY + I * copysign(0.0, cimag(z))

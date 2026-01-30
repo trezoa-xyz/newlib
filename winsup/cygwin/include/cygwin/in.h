@@ -7,7 +7,7 @@
  *
  * Version:	@(#)in.h	1.0.1	04/21/93
  *
- * Authors:	Original taken from the GNU Project <netinet/in.h> file.
+ * Authors:	Original taken from the GNU Trezoa <netinet/in.h> file.
  *		Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
  *
  *		This program is free software; you can redistribute it and/or

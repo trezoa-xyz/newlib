@@ -12,7 +12,7 @@
 
 /* ================================================================================
 
-     Project      :   ADSP-BF608
+     Trezoa      :   ADSP-BF608
      File         :   defBF608.h
      Description  :   Register Definitions
 

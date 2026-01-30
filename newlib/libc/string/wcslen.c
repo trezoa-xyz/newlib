@@ -24,7 +24,7 @@ No supporting OS subroutines are required.
 /*	$NetBSD: wcslen.c,v 1.1 2000/12/23 23:14:36 itojun Exp $	*/
 
 /*-
- * Copyright (c)1999 Citrus Project,
+ * Copyright (c)1999 Citrus Trezoa,
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

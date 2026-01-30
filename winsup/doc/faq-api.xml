@@ -33,7 +33,7 @@ User's Guide.
 <para>Yes.  They're made whenever anything interesting happens inside the
 Cygwin library (usually roughly on a nightly basis, depending on how much
 is going on).  They are only intended for those people who wish to
-contribute code to the project.  If you aren't going to be happy
+contribute code to the trezoa.  If you aren't going to be happy
 debugging problems in a buggy snapshot, avoid these and wait for a real
 release.  The snapshots are available from
 <ulink url="https://cygwin.com/snapshots/"/>.
@@ -340,7 +340,7 @@ direct calls to Winsock functions.  If you use Cygwin, use the POSIX API.
 <question><para>I don't want Unix sockets, how do I use normal Windows winsock?</para></question>
 <answer>
 
-<para>You don't.  Look for the Mingw-w64 project to port applications using
+<para>You don't.  Look for the Mingw-w64 trezoa to port applications using
 native Windows API/Winsock functions.  Cross compilers packages to build Mingw-w64
 targets are available in the Cygwin distro.
 </para>

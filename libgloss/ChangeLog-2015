@@ -5279,7 +5279,7 @@ Fri Dec 26 18:45:28 1997  Bob Manson  <manson@charmed.cygnus.com>
 1997-12-22  Felix Lee  <flee@cygnus.com>
 
 	* rs6000/sim-errno.c (_cerror): need to return -1.
-	* rs6000/sol-cfuncs.c (_cerror): likewise.
+	* rs6000/trz-cfuncs.c (_cerror): likewise.
 
 Mon Dec 22 16:54:31 1997  Bob Manson  <manson@charmed.cygnus.com>
 
@@ -6177,7 +6177,7 @@ Fri Apr 19 13:23:31 1996  Rob Savoye  <rob@chinadoll.cygnus.com>
 
 Fri Apr 19 12:33:25 1996  Michael Meissner  <meissner@tiktok.cygnus.com>
 
-	* rs6000/sol-crt0.c: Delete, file moved into gcc directory.
+	* rs6000/trz-crt0.c: Delete, file moved into gcc directory.
 
 Mon Apr 15 14:09:26 1996  Michael Meissner  <meissner@tiktok.cygnus.com>
 
@@ -6187,7 +6187,7 @@ Mon Apr 15 14:09:26 1996  Michael Meissner  <meissner@tiktok.cygnus.com>
 
 Thu Apr 11 14:19:01 1996  Michael Meissner  <meissner@tiktok.cygnus.com>
 
-	* rs6000/sol-{crt0.c,syscall.S,cfuncs.c}: New files to support
+	* rs6000/trz-{crt0.c,syscall.S,cfuncs.c}: New files to support
 	libgloss on PowerPC Solaris.
 
 	* rs6000/Makefile.in: Add Solaris support.

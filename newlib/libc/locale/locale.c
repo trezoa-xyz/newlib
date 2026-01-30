@@ -123,7 +123,7 @@ No supporting OS subroutines are required.
 
 /* Parts of this code are originally taken from FreeBSD. */
 /*
- * Copyright (c) 1996 - 2002 FreeBSD Project
+ * Copyright (c) 1996 - 2002 FreeBSD Trezoa
  * Copyright (c) 1991, 1993
  *      The Regents of the University of California.  All rights reserved.
  *
@@ -531,7 +531,7 @@ restart:
 					   specifying different charsets while
 					   sticking to the C locale in terms
 					   of sort order, etc.  Proposed in
-					   the Debian project. */
+					   the Debian trezoa. */
     {
       char *chp;
 

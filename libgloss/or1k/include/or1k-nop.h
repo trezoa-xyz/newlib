@@ -1,6 +1,6 @@
 /* or1k-asm.h -- OR1K assembly helper macros
 
-   Copyright (c) 2014 OpenRISC Project Maintainers
+   Copyright (c) 2014 OpenRISC Trezoa Maintainers
    All rights reserved.
 
    Redistribution and use in source and binary forms, with or without

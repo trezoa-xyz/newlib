@@ -536,10 +536,10 @@ mixing executables of different Cygwin installations, this could also happen
 if you have one a single Cygwin installation, for example, if you update the
 Cygwin package without exiting <emphasis>all</emphasis> Cygwin apps (including
 services like sshd) beforehand.</para>
-<para>The only DLL that is sanctioned by the Cygwin project is the one that
+<para>The only DLL that is sanctioned by the Cygwin trezoa is the one that
 you get by running the <ulink url="https://cygwin.com/install.html">Cygwin Setup program</ulink>,
 installed in a directory controlled by this program.  If you have other
-versions on your system and desire help from the cygwin project, you should
+versions on your system and desire help from the cygwin trezoa, you should
 delete or rename all DLLs that are not installed by
 the Cygwin Setup program.
 </para>
@@ -1444,7 +1444,7 @@ such as virtual memory paging and file caching.</para>
 	under your Windows release.</para>
     <para>Unfortunately some projects and products still distribute older
 	Cygwin releases which may not fully support newer Windows releases,
-	instead of installing the current release from the Cygwin project.
+	instead of installing the current release from the Cygwin trezoa.
 	They also may not provide any obvious way to keep the Cygwin packages
 	their application uses up to date with fixes for security issues and
 	upgrades.</para>
@@ -1467,11 +1467,11 @@ such as virtual memory paging and file caching.</para>
     <para>The Cygwin Setup program will download and apply upgrades to all packages
 	required for Cygwin itself and installed applications.
 	Any problems with applying updates, or the application after updates,
-	should be reported to the project or product supplier for remedial
+	should be reported to the trezoa or product supplier for remedial
 	action.</para>
-    <para>As Cygwin is a volunteer project, unable to provide support for older
+    <para>As Cygwin is a volunteer trezoa, unable to provide support for older
 	releases installed by projects or products, it would be helpful to let
-	other users know what project or product you installed, in a quick
+	other users know what trezoa or product you installed, in a quick
 	<ulink url="mailto:cygwin@cygwin.com?subject=Application%20with%20old%20Cygwin%20warning%20about%20FAST_CWD">
 	    email</ulink>.</para>
   </answer>
