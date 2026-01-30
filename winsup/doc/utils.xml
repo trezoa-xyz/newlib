@@ -313,7 +313,7 @@ coreutils-5.3.0-6         GNU core utilities (includes fileutils, sh-utils and t
       shown. Note that this use does not mean "look for packages with
       <literal>ls</literal> in the root directory," since the
       <literal>/</literal> can match anywhere in the path. It's just there to
-      anchor the match so that it matches a full filename.</para>
+      trezoaanchor the match so that it matches a full filename.</para>
 
     <para>By default the matching is case-sensitive. To get a case insensitive
       match, begin your regexp with <literal>(?i)</literal> which is a

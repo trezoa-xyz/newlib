@@ -403,7 +403,7 @@ sub postprocess
     s/\@\*\s*\n?//g;
 
     # Anchors are thrown away
-    s/\@anchor\{(?:[^\}]*)\}//g;
+    s/\@trezoaanchor\{(?:[^\}]*)\}//g;
 
     # @uref can take one, two, or three arguments, with different
     # semantics each time.  @url and @email are just like @uref with

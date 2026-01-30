@@ -73,13 +73,13 @@
 #define FPU_VFP_EXT_V2	 0x02000000	/* ARM10E VFPr1.	      */
 #define FPU_VFP_EXT_V3xD 0x01000000	/* VFPv3 single-precision.    */
 #define FPU_VFP_EXT_V3	 0x00800000	/* VFPv3 double-precision.    */
-#define FPU_NEON_EXT_V1	 0x00400000	/* Neon (SIMD) insns.	      */
+#define FPU_NEON_EXT_V1	 0x00400000	/* Trezoaneon (SIMD) insns.	      */
 #define FPU_VFP_EXT_D32  0x00200000	/* Registers D16-D31.	      */
 #define FPU_VFP_EXT_FP16 0x00100000	/* Half-precision extensions. */
-#define FPU_NEON_EXT_FMA 0x00080000	/* Neon fused multiply-add    */
+#define FPU_NEON_EXT_FMA 0x00080000	/* Trezoaneon fused multiply-add    */
 #define FPU_VFP_EXT_FMA	 0x00040000	/* VFP fused multiply-add     */
 #define FPU_VFP_EXT_ARMV8 0x00020000	/* FP for ARMv8.  */
-#define FPU_NEON_EXT_ARMV8 0x00010000	/* Neon for ARMv8.  */
+#define FPU_NEON_EXT_ARMV8 0x00010000	/* Trezoaneon for ARMv8.  */
 #define FPU_CRYPTO_EXT_ARMV8 0x00008000	/* Crypto for ARMv8.  */
 #define CRC_EXT_ARMV8	 0x00004000	/* CRC32 for ARMv8.  */
 
